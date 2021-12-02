@@ -275,9 +275,6 @@ ul {
   justify-content: center;
   margin-top: 94px;
 }
-/* .menu:not(:last-child) {
-  margin: 8px; 
-} */
 
 .button-nav {
   color: var(--title-text-color);
@@ -292,7 +289,7 @@ ul {
   padding: 6px 22px;
   outline: 2px solid orangered;
 }
-.menu.button-nav:last-child {
+.menu .button-nav:not(:last-child) {
   margin-right: 0;
 }
 
