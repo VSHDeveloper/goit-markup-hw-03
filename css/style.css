@@ -55,8 +55,23 @@ ul {
   padding-right: 15px;
   outline: 2px solid tomato;
 }
+/* шапка сайта */
+
+.header {
+  height: 80px;
+}
 
 /* logo */
+.logotype {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .logo {
   font-family: Raleway;
   font-weight: bold;
@@ -75,6 +90,11 @@ ul {
 }
 
 /* site-nav */
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+  
+}
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -88,6 +108,9 @@ ul {
 }
 
 /* site-info */
+.site-info {
+  display: flex;
+}
 .site-info .link {
   color: var(--primery-text-color);
   font-weight: 500;
@@ -104,7 +127,6 @@ ul {
 .hero {
   background-color: var(--background-hero-futer);
   height: 600px;
-  margin-top: 32px;
 }
 .hero .title {
   color: var(--primery-wite-color);
@@ -130,6 +152,7 @@ ul {
   cursor: pointer;
   margin: auto;
   margin-top: 30px;
+  padding: 10px 32px;
 }
 .button:hover,
 .button:focus {
@@ -148,6 +171,9 @@ ul {
 }
 
 /* features, works, */
+.features {
+  margin-top: 94px;
+}
 .features-list {
   display: flex;
   justify-content: space-between;
@@ -155,7 +181,6 @@ ul {
 .features-list > li {
   width: 270px;
   height: 101px;
-  margin-top: 94px;
 }
 .features-title {
   color: var(--title-text-color);
@@ -197,16 +222,26 @@ ul {
   font-size: 16px;
   font-weight: 500;
   text-align: left;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.team-title,
+.text {
+  text-align: center;
 }
 .cards {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
+.cards > li {
+  background-color: var(--background-color);
+}
 
 /* futer */
 .futer {
   background-color: var(--background-hero-futer);
+  height: 252px;f
 }
 .futer-text {
   color: var(--primery-wite-color);
