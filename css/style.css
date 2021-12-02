@@ -93,7 +93,9 @@ ul {
 .site-nav {
   display: flex;
   margin-left: 93px;
-  
+}
+.site-nav > li:nth-child(even) {
+  padding: 0 50px;
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -110,6 +112,9 @@ ul {
 /* site-info */
 .site-info {
   display: flex;
+}
+.site-info > li:last-child {
+  padding-left: 50px;
 }
 .site-info .link {
   color: var(--primery-text-color);
@@ -241,17 +246,24 @@ ul {
 /* futer */
 .futer {
   background-color: var(--background-hero-futer);
-  height: 252px;f
+  height: 252px;
+}
+.logo-futer {
+  padding-top: 60px;
 }
 .futer-text {
   color: var(--primery-wite-color);
-  display: initial;
+  display: block;
   font-style: normal;
+  padding-top: 20px;
 }
 .futer .link {
   color: rgba(255, 255, 255, 0.6);
-  display: initial;
+  display: block;
   font-style: normal;
+}
+.list > li {
+  padding-top: 9px;
 }
 
 /* portfolio */
