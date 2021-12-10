@@ -293,12 +293,11 @@ ul {
 }
 
 /* portfolio */
+.line {
+  border-bottom: 1px solid #eeeeee;
+}
 .section {
   padding-top: 94px;
-}
-
-.section .line {
-  border-bottom: 1px solid #eeeeee;
 }
 
 .menu {
