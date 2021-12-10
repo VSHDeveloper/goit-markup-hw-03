@@ -345,7 +345,6 @@ ul {
   /* outline: 2px solid orangered; */
   margin-top: 30px;
   margin-left: 30px;
-  
 }
 
 .item {
@@ -370,7 +369,7 @@ ul {
 .section-menu .item-text {
   font-size: 16px;
   line-height: 1.9;
-/* }
-.item-text {
+}
+/* .item-text {
   padding-top: 4px;
-} */
+}  */
