@@ -46,6 +46,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 
 .conteiner {
   width: 1200px;
@@ -298,6 +301,7 @@ ul {
 }
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .menu {
@@ -347,7 +351,7 @@ ul {
 }
 
 .item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .item:nth-child(3n + 1) {
   margin-left: 0;
@@ -355,7 +359,7 @@ ul {
 .description-card {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
-  margin-top: -8px;
+  /* margin-top: -8px; */
 }
 
 .section-title {
